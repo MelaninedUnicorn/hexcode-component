@@ -7,10 +7,10 @@ import "./HexaComponent.scss";
 const HexaComponent: React.FC<HexaComponentProps> = ({ colorCode }) => (
   <div
     data-testid="hexa-component"
-    className={`hexa-component`}
+    className={`hexa-component-container`}
   >
     <h1 className="heading">${colorCode}</h1>
-    <h2>Made with love by Harvey</h2>
+    <h2>This is the color</h2>
   </div>
 );
 
