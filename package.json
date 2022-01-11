@@ -7,12 +7,16 @@
   "files": [
     "build"
   ],
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
   "scripts": {
     "build": "rollup -c",
-    "test": "jest",
-    "test:watch": "jest --watch",
+    "test": "jest --env=jsdom",
+    "test:watch": "jest --env=jsdom --watch",
     "storybook": "start-storybook -p 6006",
-    "storybook:export": "build-storybook"
+    "storybook:export": "build-storybook",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",

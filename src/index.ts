@@ -1,3 +1,3 @@
-import HexaComponent from "./HexaComponent/HexaComponent";
+import HexaComponent from "./Components/HexaComponent/HexaComponent";
 
 export { HexaComponent };

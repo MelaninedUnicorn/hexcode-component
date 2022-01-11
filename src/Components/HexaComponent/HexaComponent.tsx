@@ -8,8 +8,9 @@ const HexaComponent: React.FC<HexaComponentProps> = ({ colorCode }) => (
   <div
     data-testid="hexa-component"
     className={`hexa-component-container`}
+    style={{backgroundColor:colorCode,color:'#fff'}}
   >
-    <h1 className="heading">${colorCode}</h1>
+    <h1 className="heading">{colorCode}</h1>
     <h2>This is the color</h2>
   </div>
 );
