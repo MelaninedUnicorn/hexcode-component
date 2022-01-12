@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "@testing-library/react";
 
-import HexaComponent from "./HexaComponent";
+import HexaComponent from ".";
 import { HexaComponentProps } from "./HexaComponent.types";
 
 describe("Hexa Component", () => {

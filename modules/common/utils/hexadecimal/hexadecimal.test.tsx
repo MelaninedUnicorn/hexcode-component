@@ -1,9 +1,10 @@
-import { getRandomValue,isHexadecimal } from './hexadecimal'
+import { getRandomValue,isHexadecimal } from '.'
 
 test('returns true because the value is a hexadecima;', () => {
 
     expect(isHexadecimal('#007FFF')).toBe(true);
 });
+
 test('returns false because the value is not a hexadecimal', () => {
 
     expect(isHexadecimal('#00#FFF')).toBe(false);

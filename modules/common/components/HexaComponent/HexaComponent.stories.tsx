@@ -1,6 +1,6 @@
 import React from "react";
-import HexaComponent from './HexaComponent';
-import { getRandomValue } from '../../Utils/hexadecimal/hexadecimal';
+import HexaComponent from '.';
+import { getRandomValue } from '../../utils/hexadecimal';
 
 export default {
   title: "HexaComponent"
